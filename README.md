@@ -75,3 +75,7 @@ You can visit the following endpoints in the application
 - `/get-std-deviation` returns the standard deviation of the concentra8on
 - `get-sum` returns the sum of the concetration
 - `get-image` returns png visualization of the concentration
+
+## Docker Deployment
+
+The easiest way to build and run the container is to open the project is Visual Studio Code and use the 'F5' shortcut or the Run Without Debuggin command in the main pannel. This will automatically build the Docker image and run the Docker container.
