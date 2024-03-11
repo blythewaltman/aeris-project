@@ -78,4 +78,4 @@ You can visit the following endpoints in the application
 
 ## Docker Deployment
 
-The easiest way to build and run the container is to open the project is Visual Studio Code and use the `F5` shortcut or the Run Without Debuggin command in the main pannel. This will automatically build the Docker image and run the Docker container.
+The easiest way to build and run the container is to open the project is Visual Studio Code and use the `F5` shortcut or the Run Without Debugging command in the main pannel. This will automatically build the Docker image and run the Docker container.
