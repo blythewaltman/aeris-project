@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Standard Deviation</title>
+</head>
+
+<body>
+    {% if std_deviation_sample_str %}
+    <p>Concentration Standard Deviation (Sample): <strong>{{ std_deviation_sample_str }}</strong></p>
+    {% endif %}
+
+    {% if std_deviation_pop_str %}
+    <p>Concentration Standard Deviation (Population): <strong>{{ std_deviation_pop_str }}</strong></p>
+    {% endif %}
+
+    {% if error_message %}
+    <strong>Error could not calculate standard deviation: {{ error_message }}</strong>
+    {% endif %}
+</body>
+
+</html>

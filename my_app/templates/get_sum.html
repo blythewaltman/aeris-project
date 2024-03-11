@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Sum</title>
+    </head>
+    <body>
+        {% if sum_str %}
+            <p>Concentration Sum: <strong>{{ sum_str }}</strong></p>
+        {% elif error_message %}
+            <strong>Error: {{ error_message }}</strong>
+        {% else %}
+            <strong>Could not calculate concentration sum</strong>
+        {% endif %}
+    </body>
+</html>
